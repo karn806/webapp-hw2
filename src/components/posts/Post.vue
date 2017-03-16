@@ -1,6 +1,8 @@
 <template>
   <div class="post">
-    <span><b>{{ post.name }}</b></span>
+    <span><b>Title: {{ post.name }}</b></span><br>
+    <span>Posted by: {{ post.user.email }}</span><br>
+    __________________________________________
     <p><i class="el-icon-caret-right"></i> {{ post.content }}</p>
   </div>
 </template>

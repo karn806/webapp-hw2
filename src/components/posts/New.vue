@@ -1,11 +1,11 @@
 <template>
   <div class="new-post">
     <div class="container">
-      <el-form ref="form" :model="form" :label-position="labelPosition" label-width="120px">
+      <el-form>
         <el-form-item>
           <h2>New Post</h2>
           <el-input type="input" v-model="post.name">
-            <template slot="prepend">Post name: </template>
+            <template slot="prepend">Title: </template>
           </el-input>
         </el-form-item>
         <el-form-item>
@@ -46,4 +46,9 @@ export default {
 </script>
 
 <style scoped>
+  .container {
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="post">
+  <div class="show">
     <iccs340-post :post='post'></iccs340-post>
     <div v-for="comment in comments" class="text item">
       <iccs340-comment :comment='comment'></iccs340-comment>
@@ -50,8 +50,9 @@ export default {
 </script>
 
 <style scoped>
-  .post {
+  .show {
     margin-top: 30px;
-    margin-left: 60px;
+    margin-left: 20%;
+    margin-right: 10%;
   }
 </style>

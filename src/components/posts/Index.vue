@@ -8,9 +8,10 @@
       </el-table-column>
     </el-table> -->
     <el-table :data="posts" style="width: 80%" @row-click="toShow">
-      <el-table-column prop="id" label="#"></el-table-column>
-      <el-table-column prop="name" label="Post Name" width="280"></el-table-column>
-      <el-table-column prop="content" label="Content" width="580"></el-table-column>
+      <el-table-column prop="id" label="#" width="80"></el-table-column>
+      <el-table-column prop="name" label="Title" width="320"></el-table-column>
+      <el-table-column prop="user.email" label="User" width="306"></el-table-column>
+      <!-- <el-table-column prop="created_at" label="Created at" width="280"></el-table-column> -->
       <!-- <iccs340-post :post='post.name'></iccs340-post> -->
     </el-table>
 
@@ -58,7 +59,7 @@ export default {
 <style scoped>
   .posts {
     margin-top: 30px;
-    margin-left: 140px;
-    margin-right: 80px;
+    margin-left: 20%;
+    margin-right: 10%;
   }
 </style>

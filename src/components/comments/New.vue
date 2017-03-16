@@ -1,11 +1,11 @@
 <template>
   <div class="new-post">
     <div class="container">
-      <el-form ref="form" :model="form" :label-position="labelPosition" label-width="120px">
-        <el-form-item label="Add Commen">
+      <el-form>
+        <el-form-item label="Add Comment">
           <el-input type="textarea" v-model="comment.content"></el-input>
         </el-form-item>
-        <el-form-item>
+        <el-form-item id="com-btn">
           <el-button type="success" @click="createComment">Comment</el-button>
         </el-form-item>
       </el-form>
@@ -50,4 +50,7 @@ export default {
 </script>
 
 <style scoped>
+  #com-btn{
+    /*text-align: right;*/
+  }
 </style>
