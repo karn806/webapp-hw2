@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div class="left-sidenav">
     <el-menu class="el-menu-demo" mode="horizontal" v-model="activeName">
       <el-menu-item index="1">Homework 2</el-menu-item>
