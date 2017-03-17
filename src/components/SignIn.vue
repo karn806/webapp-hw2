@@ -45,8 +45,7 @@ export default {
   }
   .sign-in {
     margin: auto;
-    width: 50%;
+    width: 30%;
     text-align: center;
-
   }
 </style>
