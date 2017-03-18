@@ -1,9 +1,8 @@
 # gh-hw2
+> A Vue.js project
 
 deploy to:
 http://karn806.github.io/webapp-hw2
-
-> A Vue.js project
 
 ## Build Setup
 
