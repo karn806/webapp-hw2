@@ -1,6 +1,6 @@
 <template>
   <div class="show">
-    <iccs340-post :post='post'></iccs340-post>
+    <iccs340-post v-if="post.user" :post='post'></iccs340-post>
     <div v-for="comment in comments" class="text item">
       <iccs340-comment :comment='comment'></iccs340-comment>
     </div>
