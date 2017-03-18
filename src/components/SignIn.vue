@@ -1,7 +1,7 @@
 <template>
   <div class="sign-in">
     <el-form>
-      <h2 id="signin-text">Sign In</h2>
+      <h2>Sign In</h2>
       <el-form-item label="Email">
         <el-input v-model="email" placeholder="Email"></el-input>
       </el-form-item>
@@ -40,12 +40,4 @@ export default {
 </script>
 
 <style scoped>
-  #signin-text {
-
-  }
-  .sign-in {
-    margin: auto;
-    width: 50%;
-    text-align: center;
-  }
 </style>
