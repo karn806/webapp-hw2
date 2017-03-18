@@ -1,5 +1,9 @@
 <template>
-  <div class="sign-in">
+  <div class="sign-in" style="
+    margin: auto;
+    margin-top: 60px;
+    width: 35%;
+    text-align: center;">
     <el-form>
       <h2>Sign In</h2>
       <el-form-item label="Email">
