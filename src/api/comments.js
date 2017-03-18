@@ -3,8 +3,6 @@ import Vue from 'vue'
 export default {
   getComments (postId, callback, errCallback) {
     Vue.$http.get(`/posts/${postId}/comments.json`)
-    console.log();
-    console.log(Vue.$http.get(`/posts/${postId}/comments.json`));
     .then(function (response) {
       callback(response.data)
     })
