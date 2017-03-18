@@ -25,4 +25,14 @@ export default {
     margin-top: 30px;
     margin-right: 140px;
   }
+  .show {
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 10%;
+  }
+  .posts {
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 10%;
+  }
 </style>

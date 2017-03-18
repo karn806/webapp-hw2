@@ -50,9 +50,4 @@ export default {
 </script>
 
 <style scoped>
-  .show {
-    margin-top: 30px;
-    margin-left: 20%;
-    margin-right: 10%;
-  }
 </style>

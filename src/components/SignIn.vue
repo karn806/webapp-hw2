@@ -10,7 +10,7 @@
         <el-input v-model="email" placeholder="Email"></el-input>
       </el-form-item>
       <el-form-item label="Password">
-        <el-input v-model="password" placeholder="Password"></el-input>
+        <el-input v-model="password" type="password" placeholder="Password"></el-input>
       </el-form-item>
       <el-form-item>
         <el-button :plain="true" type="success" @click="login">Log In</el-button>
